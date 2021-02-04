@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.navbar {
+    background-color: white;
+    opacity: 20%;
+    z-index: 10;
+}
+
+.nav-item {
+    margin-right: 4vh;
+}
+
+.navbar-brand {
+    margin-left: 2vh;
+    font-size: 4vh;
+    color: #000000 !important;
+    cursor: default !important;
+}
+
+.jack-nav-link {
+    color: #000000 !important;
+}
+
+.jack-nav-link:hover {
+    opacity: 40%;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(358.38deg, rgba(0, 250, 55, 0.42) -7.84%, rgba(5, 210, 255, 0.35) 74.03%), linear-gradient(252.95deg, #05D2FF 0.24%, rgba(0, 250, 55, 0.38) 100.69%);
+}
+
+
+.glass {
+    position: fixed;
+    display: flex;
+    top: 30vh;
+    bottom: 30vh;
+    max-width: 100vh;
+    margin-right: 4vh;
+    height: 50vh;
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.04)
+    );
+    border-radius: 2rem;
+    backdrop-filter: blur(0.1rem);
+    z-index: 2;
+}
+
+.dashboard {
+    min-width: 25vh;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 30%);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: default;
+}
+
+.dashboard img {
+    height: 10vh;
+    width: 10vh;
+    margin-top: 2vh;
+    border-radius: 100%;
+}
+
+.dashboard h1 {
+    color: #44baad;
+    font-weight: 400;
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+
+.dashboard h5 {
+    color: #44baad;
+    font-size: 1.5vh;
+}
+
+#circle1 {
+    background-color: white;
+    position: absolute;
+    width: 50vh;
+    height: 50vh;
+    top: 20%;
+    right: 35%;
+    background: linear-gradient(154.45deg, #18DADF 3.42%, #40EE88 63.17%);
+    filter: blur(5rem);
+    transform: rotate(61.93deg);
+    border-radius: 100%;
+    z-index: 1;
+}
+
+#circle2 {
+    background-color: white;
+    position: absolute;
+    width: 50vh;
+    height: 50vh;
+    bottom: 10%;
+    left: 1%;
+    background: linear-gradient(154.45deg, #18DADF 3.42%, #40EE88 63.17%);
+    filter: blur(6rem);
+    transform: rotate(61.93deg);
+    border-radius: 100%;
+    z-index: 1;
+}
+
+#circle3 {
+    background-color: white;
+    background: linear-gradient(154.45deg, #18DADF 3.42%, #40EE88 63.17%);
+    opacity: 50%;
+    position: fixed;
+    width: 100vh;
+    height: 150vh;
+    top: -30%;
+    right: -20%;
+    filter: blur(6rem);
+    transform: rotate(61.93deg);
+    border-radius: 100%;
+    z-index: -2;
+}
+
+.list {
+    list-style-type: none;
+    font-size: 1.5vh;
+    margin-top: 5vh;
+    padding-right: 2vh;
+}
+
+.list a {
+    text-decoration: none;
+    color: #44baad;
+    opacity: 50%;
+    font-size: 2vh;
+    text-align: center;
+}
+
+#discord {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.list li:hover {
+    opacity: 40%;
+}
+
+.info {
+    color: #44baad;
+    margin-top: 4vh;
+    margin-left: 4vh;
+}
+
+.info h2 {
+    padding-bottom: 1vh;
+}
+
+.info h4 {
+    font-size: 2vh;
+    margin-right: 4vh;
+    color: #44baad;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
